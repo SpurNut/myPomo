@@ -19,7 +19,7 @@ def main():
 
             #clears screen
             os.system('cls' if os.name == 'win32' else 'clear')
-            print('start working for 10 min. you will hear an alarm.')
+            print('start working for 25 min. you will hear an alarm.')
             timer(25)
 
             playSoundCmd = checkOS()
