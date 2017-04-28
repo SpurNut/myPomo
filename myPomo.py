@@ -11,7 +11,7 @@ def main():
     while True:
 
         print('press \'q\' and hit enter to quit the program.')
-        print('press \'b\' and hit to begin working for 25 minutes.')
+        print('press \'b\' and hit enter to begin working for 25 minutes.')
 
         keyInput = input()
 
