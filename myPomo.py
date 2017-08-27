@@ -1,9 +1,7 @@
 import time, os
 from sys import platform
 
-'''myPomo is a tui-program that enables you to work in the Pomodoro technique. 
-    That means 25 min work and after that you take a 5 min break
-'''
+'''myPomo is a tui-program that enables you to work in the Pomodoro technique. That means 25 min work and after that you take a 5 min break'''
 def main():
 
     rounds = 0
@@ -47,10 +45,10 @@ def printWorking(rounds):
 
 def timer(minutes):
 
-    min = 0
-    while(min < minutes):
+    minute = 0
+    while(minute < minutes):
         time.sleep(60)
-        min += 1
+        minute += 1
 
 def checkOS():
 
